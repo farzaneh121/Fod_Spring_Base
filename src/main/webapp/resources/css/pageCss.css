@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+body{
+	background-color: #555753;
+	text-align: center;
+	font-family: cursive;
+	font-size: 30px;
+	color: #ef89d9;	
+}
+
+table{
+	margin:auto;
+	background-color: #2e3436;
+	text-align: center;
+	font-family: cursive;
+	font-size: 25px;
+	color: #ef89d9;	
+	width: 35%;
+	height: 40%;
+	border-style: solid;
+    border-width: 5px;
+	
+}
+#main-table{
+	margin:auto;
+	background-color: #2e3436;
+	text-align: center;
+	font-family: cursive;
+	font-size: 25px;
+	color: #ef89d9;	
+	width: 90%;
+    
+}
+
+#mini-table{
+	margin:auto;
+	background-color: #2e3436;
+	text-align: center;
+	font-family: cursive;
+	font-size: 20px;
+	color: #ef89d9;	
+	width: 90%;
+    border: 10 px;
+    border-color: #888a85;
+    
+}
+
+#error-body{
+	background-color: #2e3436;
+	font-family: monospace;
+	font-size: 35px;
+	color: #aa1111;	
+}
+
+a{
+	width: 15%;
+	background-color: #2e3436;
+	text-align: center;
+	font-family: cursive;
+	font-size: 15px;
+	color: #ef89d9;	
+}
+
+#header-a1{
+	width: 150 px;
+	text-align: center;
+	background-color: #000000 ;
+	font-stretch:ultra-condensed;
+	font-family: cursive;
+	font-size: 15px;
+	color: #ef2929;	
+}
+#header-a2{
+	width: 150 px;
+	text-align: center;
+	background-color: #000000 ;
+	font-stretch:ultra-condensed;
+	font-family: cursive;
+	font-size: 15px;
+	color: #fce94f;	
+}
+#header-a3{
+	width: 150 px;
+	text-align: center;
+	background-color: #000000 ;
+	font-stretch:ultra-condensed;
+	font-family: cursive;
+	font-size: 15px;
+	color: #73d216;	
+}
+#header-a4{
+	width: 150 px;
+	text-align: center;
+	background-color: #000000 ;
+	font-stretch:ultra-condensed;
+	font-family: cursive;
+	font-size: 15px;
+	color: #2eb4ff;	
+}
+
+button{
+	width: 15%;
+	background-color: #2e3436;
+	text-align: center;
+	font-family: cursive;
+	font-size: 15px;
+	color: #ef89d9;	
+    height: 50px;
+}
+
+#header{
+	background-color: #000000;
+	text-align: center;
+	font-family: cursive;
+	font-size: 35px;
+}
+
+#footer {
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5% ;
+	background-color: #f3f3f3;
+	text-align: center;
+	font-family: monospace;
+	font-size: 15px;
+	color: #555753;	
+}
+

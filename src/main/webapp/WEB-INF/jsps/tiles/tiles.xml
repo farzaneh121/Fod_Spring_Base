@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+    <!-- Templates -->
+    
+    <definition name="layout.temp" template="/WEB-INF/jsps/tiles/layout/basic.jsp">
+    <put-attribute name="titel" value="Shopping project"/>
+    <put-attribute name="header" value="/WEB-INF/jsps/tiles/layout/header.jsp"/>
+    <put-attribute name="body" value=""/>
+    <put-attribute name="footer" value="/WEB-INF/jsps/tiles/layout/footer.jsp"/>
+    </definition>
+
+    <!-- Pages -->
+    
+    <definition name="home" extends="layout.temp">
+    <put-attribute name="body" value="/WEB-INF/jsps/home.jsp"/>
+    </definition>
+    
+    <definition name="person/*" extends="layout.temp">
+    <put-attribute name="body" value="/WEB-INF/jsps/person/{1}.jsp"/>
+    </definition>
+    
+     <definition name="product/*" extends="layout.temp">
+    <put-attribute name="body" value="/WEB-INF/jsps/product/{1}.jsp"/>
+    </definition>
+    
+</tiles-definitions>
